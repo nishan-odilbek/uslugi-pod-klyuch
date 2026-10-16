@@ -1072,6 +1072,8 @@ a.case .h4 { transition: color .2s var(--ease); }
 /* Изображения кейса: в натуральную высоту, без обрезки */
 .case-img { border-radius: 4px; overflow: hidden; background: var(--surface-card); }
 .case-img img, .case-bleed img { width: 100%; height: auto; }
+.case-img--center { display: flex; justify-content: center; padding: clamp(24px, 4vw, 64px) 16px; }
+.case-img--center img { width: auto; max-width: min(576px, 100%); border-radius: 4px; }
 .case-bleed { background: var(--bg-base); }
 
 @media (min-width: 1441px) { .case-duo__col { max-width: 40vw; } }
