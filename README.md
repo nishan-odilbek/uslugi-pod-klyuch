@@ -3,7 +3,7 @@
 Статический сайт (HTML + CSS + JS), без сборки.
 
 - `index.html` — главная
-- `cases/` — страницы кейсов (AllStars, Trido)
+- `cases/` — страницы кейсов (101 Solution, IDEAL, Trido, Ханская баня, AllStars)
 - `css/styles.css` — стили
 - `js/main.js` — скрипты
 - `assets/` — логотип и картинки (webp)
